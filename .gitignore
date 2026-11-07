@@ -1,0 +1,15 @@
+# Secrets - never upload
+*.env
+.env
+
+# Data (large / not for GitHub)
+Raw data/
+Raw data - Copy/
+Cleaned data/
+data/
+
+# Notebook and Python junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
